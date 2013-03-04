@@ -1,0 +1,7 @@
+AuthUserFile /home/oblongbooking/invoice.jessfishenden.com/Editable-Invoice/.htpasswd
+AuthType Basic
+AuthName "invoices"
+
+<Files "./*">
+  Require valid-user
+</Files>
