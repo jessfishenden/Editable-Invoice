@@ -21,11 +21,12 @@
 		
 		<div id="identity">
 		
-            <textarea id="address">Andrew Minion
-123 Anystreet
-Anytown, NC 28150
+            <textarea id="address">Jess Fishenden
+3 Woodside Mews	
+Leeds, LS7 2UP
 
-Phone: 222-222-2222</textarea>
+jess@qw6.net
+jessfishenden.com</textarea>
 
             <div id="logo">
 
@@ -50,15 +51,16 @@ Phone: 222-222-2222</textarea>
 		
 		<div id="customer">
 
-            <textarea id="customer-title">Widget Corp.
-c/o Steve Widget
+            <textarea id="customer-title">Client
+c/o Organisation
 Address
-City, State 12345</textarea>
+City
+POST CODE</textarea>
 
             <table id="meta">
                 <tr>
                     <td class="meta-head">Invoice #</td>
-                    <td><textarea>000140</textarea></td>
+                    <td><textarea><?php echo date('YdF'); ?>-000140</textarea></td>
                 </tr>
                 <tr>
 
@@ -86,10 +88,10 @@ City, State 12345</textarea>
 		  
 		  <tr class="item-row removable">
 		      <td class="item-name"><div class="delete-wpr"><textarea>Web Updates</textarea><a class="delete" href="javascript:;" title="Remove row">X</a></div></td>
-		      <td class="description"><textarea>Monthly web updates for http://widgetcorp.com (Nov. 1&ndash;Nov. 30, 2011)</textarea></td>
-		      <td><textarea class="cost">$650.00</textarea></td>
+		      <td class="description"><textarea>Technical Services for ... (Nov. 1&ndash;Nov. 30, 2011)</textarea></td>
+		      <td><textarea class="cost">$65.00</textarea></td>
 		      <td><textarea class="qty">1</textarea></td>
-		      <td><span class="price">$650.00</span></td>
+		      <td><span class="price">$65.00</span></td>
 		  </tr>
 		  
 		  <tr class="item-row removable">
@@ -136,7 +138,13 @@ City, State 12345</textarea>
 		
 		<div id="terms">
 		  <h5>Terms</h5>
-		  <textarea>NET 30 Days. Finance Charge of 1.5% will be made on unpaid balances after 30 days.</textarea>
+		  <textarea>Payment is due by the above date, unless otherwise stated.
+		  Please make payment by bank transfer to:
+		  <pre>Ms J R Fishenden
+		  HSBC
+		  40-46-33
+		  91280643</pre>
+		  Or by paypal to j@qw6.net</textarea>
 		</div>
 		
 	</div>
