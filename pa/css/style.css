@@ -114,7 +114,7 @@ table td, table th {
 	font-weight: bold;
 	float: left;
 	width: 250px;
-	height: 100px;
+	height: 130px;
 }
 
 #meta {
@@ -224,7 +224,7 @@ table td, table th {
 }
 
 #terms {
-	text-align: center;
+	text-align: centre;
 	margin: 20px 0 0 0;
 }
 
@@ -239,7 +239,7 @@ table td, table th {
 
 #terms textarea {
 	width: 100%;
-	text-align: center;
+	text-align: left;
 }
 
 textarea:hover, textarea:focus, #items td.total-value textarea:hover, #items td.total-value textarea:focus, .delete:hover {

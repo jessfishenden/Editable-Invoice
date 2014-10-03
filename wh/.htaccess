@@ -1,0 +1,7 @@
+AuthUserFile /var/www/invoice.jessfishenden.com/wh/.htpasswd
+AuthType Basic
+AuthName "Pedallers Arms invoices"
+
+<Files "./*">
+  Require valid-user
+</Files>
