@@ -4,7 +4,7 @@
 <head>
 	<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
 	
-	<title><?php echo date('Y-m-d'); ?> Customer Name - Invoice 130</title>
+	<title><?php echo date('Y-m-d'); ?> Invoice</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
@@ -60,7 +60,7 @@ POST CODE</textarea>
             <table id="meta">
                 <tr>
                     <td class="meta-head">Invoice #</td>
-                    <td><textarea><?php echo date('Ydm'); ?>-0014</textarea></td>
+                    <td><textarea>jf-01-<?php echo date('Ymd'); ?></textarea></td>
                 </tr>
                 <tr>
 
@@ -131,8 +131,8 @@ POST CODE</textarea>
 		
 		<div id="terms">
 		  <h5>Terms</h5>
-		  <textarea>Payment is due by <?php echo date('d F Y'); ?>.
-Please make payment by bank transfer to: Ms J R Fishenden, HSBC, 40-46-33, 91280643.  Or by paypal to j@qw6.net</textarea>
+		  <textarea>Payment is needed by <?php echo date('d F Y'); ?>.
+Please make payment by bank transfer to: Ms J R Fishenden, HSBC, 40-46-33, 91280643.</textarea>
 		</div>
 		
 	</div>

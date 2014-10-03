@@ -60,7 +60,7 @@ POST CODE</textarea>
             <table id="meta">
                 <tr>
                     <td class="meta-head">Invoice #</td>
-                    <td><textarea><?php echo date('Ydm'); ?>-0014</textarea></td>
+                    <td><textarea>pa-<?php echo date('Ym'); ?>-001</textarea></td>
                 </tr>
                 <tr>
 

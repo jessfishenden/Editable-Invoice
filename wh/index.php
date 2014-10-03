@@ -21,12 +21,13 @@
 		
 		<div id="identity">
 		
-            <textarea id="address">Jess Fishenden
-3 Woodside Mews	
-Leeds, LS7 2UP
+            <textarea id="address">Will Hudson
+16 Florence Mount,
+Harehills,
+LS9 7AU
 
-jess@qw6.net
-jessfishenden.com</textarea>
+chronofracture333@gmail.com
+07429476916</textarea>
 
             <div id="logo">
 
@@ -60,7 +61,7 @@ POST CODE</textarea>
             <table id="meta">
                 <tr>
                     <td class="meta-head">Invoice #</td>
-                    <td><textarea><?php echo date('Ydm'); ?>-0014</textarea></td>
+                    <td><textarea>wh-001-<?php echo date('Ydm'); ?></textarea></td>
                 </tr>
                 <tr>
 
@@ -132,7 +133,7 @@ POST CODE</textarea>
 		<div id="terms">
 		  <h5>Terms</h5>
 		  <textarea>Payment is due by <?php echo date('d F Y'); ?>.
-Please make payment by bank transfer to: Ms J R Fishenden, HSBC, 40-46-33, 91280643.  Or by paypal to j@qw6.net</textarea>
+Please make payment by cheque to the above name, &amp; deliverable to the above address or in person.</textarea>
 		</div>
 		
 	</div>
